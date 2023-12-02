@@ -3,20 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_trebuchet_calibration", "01_trebuchet_calibration\01_trebuchet_calibration.csproj", "{DDC4B7D0-FD6D-4A57-90DF-2EF431D7E472}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_trebuchet_calibration", "01_trebuchet_calibration\01_trebuchet_calibration.csproj", "{DDC4B7D0-FD6D-4A57-90DF-2EF431D7E472}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_cube_conondrum", "02_cube_conondrum\02_cube_conondrum.csproj", "{C3134946-780D-4CCD-ACF0-F048A9F5F350}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{DDC4B7D0-FD6D-4A57-90DF-2EF431D7E472}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DDC4B7D0-FD6D-4A57-90DF-2EF431D7E472}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDC4B7D0-FD6D-4A57-90DF-2EF431D7E472}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDC4B7D0-FD6D-4A57-90DF-2EF431D7E472}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3134946-780D-4CCD-ACF0-F048A9F5F350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3134946-780D-4CCD-ACF0-F048A9F5F350}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3134946-780D-4CCD-ACF0-F048A9F5F350}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3134946-780D-4CCD-ACF0-F048A9F5F350}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B93A81AF-B08B-4C22-9587-D4D074212C89}
 	EndGlobalSection
 EndGlobal

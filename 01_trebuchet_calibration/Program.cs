@@ -1,8 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-using System.Reflection;
-using System.Threading;
-
-Console.WriteLine("AoC 2023 1.12.2023");
+﻿Console.WriteLine("AoC 2023 1.12.2023");
 
 // Read a text file line by line.
 var path = Path.Combine(Directory.GetCurrentDirectory(), "../../../input.txt");
