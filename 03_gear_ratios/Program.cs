@@ -69,29 +69,22 @@ for (var y = 0; y < lines.Length; y++)
     }
 }
 
-int totalSum = 0;
-
-// Todo: optimize brute force iteration...
+var totalPartNumbers = 0;
 foreach (var number in numbers)
 {
     foreach (var symbol in symbols)
     {
         if (number.IsAdjacentTo(symbol))
         {
-            totalSum += number.Value;
-
-            // numbers with multiple values are counted once only
-            break;
+            totalPartNumbers += number.Value;
         }
     }
 }
-
-Console.WriteLine($"Total sum of Part numbers: {totalSum}");
+Console.WriteLine($"Total sum of Part numbers: {totalPartNumbers}");
 
 var totalGearRatios = 0;
 foreach (var symbol in symbols)
 {
     totalGearRatios += symbol.GearRatio();
 }
-
 Console.WriteLine($"Total sum of Gear Ratios : {totalGearRatios}");
