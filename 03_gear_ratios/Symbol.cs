@@ -13,6 +13,14 @@ internal class Symbol
 
     internal int Y { get; }
 
+    internal List<int> Neighbours = new();
+
+    internal int GearRatio()
+    {
+        return Neighbours.Count != 2 ? 0 : Neighbours[0] * Neighbours[1];
+    }
+
+
     internal Symbol(char value, int x, int y)
     {
         Value = value;

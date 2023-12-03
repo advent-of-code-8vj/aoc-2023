@@ -87,3 +87,11 @@ foreach (var number in numbers)
 }
 
 Console.WriteLine($"Total sum of Part numbers: {totalSum}");
+
+var totalGearRatios = 0;
+foreach (var symbol in symbols)
+{
+    totalGearRatios += symbol.GearRatio();
+}
+
+Console.WriteLine($"Total sum of Gear Ratios : {totalGearRatios}");

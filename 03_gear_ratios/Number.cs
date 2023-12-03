@@ -35,10 +35,19 @@ internal class Number
 
      internal bool IsAdjacentTo(Symbol symbol)
      {
-         return symbol.X >= XStart - 1 &&
-                symbol.X <= XEnd + 1 &&
-                symbol.Y >= Y - 1 &&
-                symbol.Y <= Y + 1;
+        var isAdjacent = 
+            symbol.X >= XStart - 1 &&
+            symbol.X <= XEnd + 1 &&
+            symbol.Y >= Y - 1 &&
+            symbol.Y <= Y + 1;
+
+        if (isAdjacent)
+        {
+            // Pt2
+            symbol.Neighbours.Add(Value);
+        }
+
+        return isAdjacent;
      }
 
 }
