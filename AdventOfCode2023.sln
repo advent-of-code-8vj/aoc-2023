@@ -5,7 +5,9 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_trebuchet_calibration", "01_trebuchet_calibration\01_trebuchet_calibration.csproj", "{DDC4B7D0-FD6D-4A57-90DF-2EF431D7E472}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_cube_conondrum", "02_cube_conondrum\02_cube_conondrum.csproj", "{C3134946-780D-4CCD-ACF0-F048A9F5F350}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_cube_conondrum", "02_cube_conondrum\02_cube_conondrum.csproj", "{C3134946-780D-4CCD-ACF0-F048A9F5F350}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_gear_ratios", "03_gear_ratios\03_gear_ratios.csproj", "{091D757A-A3D7-472E-A216-AC586F59FD8B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{C3134946-780D-4CCD-ACF0-F048A9F5F350}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3134946-780D-4CCD-ACF0-F048A9F5F350}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3134946-780D-4CCD-ACF0-F048A9F5F350}.Release|Any CPU.Build.0 = Release|Any CPU
+		{091D757A-A3D7-472E-A216-AC586F59FD8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{091D757A-A3D7-472E-A216-AC586F59FD8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{091D757A-A3D7-472E-A216-AC586F59FD8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{091D757A-A3D7-472E-A216-AC586F59FD8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
