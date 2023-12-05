@@ -3,9 +3,6 @@
 using System.Runtime.InteropServices.JavaScript;
 using _04_scratchcards;
 
-Console.WriteLine("Hello, World!");
-
-
 Console.WriteLine("AoC 2023 4.12.2023");
 
 // Read a text file line by line.
