@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_boat_race", "06_boat_rac
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_camel_cards", "07_camel_cards\07_camel_cards.csproj", "{635073B6-36C8-46E8-A9E3-DF5F0272C3FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_wasteland_navigation", "08_wasteland_navigation\08_wasteland_navigation.csproj", "{6C5C6B26-9843-41C8-9A47-41CB8A71816F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08_wasteland_navigation", "08_wasteland_navigation\08_wasteland_navigation.csproj", "{6C5C6B26-9843-41C8-9A47-41CB8A71816F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_mirage_maintenance", "09_mirage_maintenance\09_mirage_maintenance.csproj", "{8826E6BC-5101-4190-9E50-624AB8406C63}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{6C5C6B26-9843-41C8-9A47-41CB8A71816F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C5C6B26-9843-41C8-9A47-41CB8A71816F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C5C6B26-9843-41C8-9A47-41CB8A71816F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8826E6BC-5101-4190-9E50-624AB8406C63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8826E6BC-5101-4190-9E50-624AB8406C63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8826E6BC-5101-4190-9E50-624AB8406C63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8826E6BC-5101-4190-9E50-624AB8406C63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
